@@ -1,0 +1,90 @@
+
+html {
+    font-family: "Roboto";
+}
+
+main {
+    width: 840px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cv-contact-link-icon {
+    width: 20px;
+}
+
+.cv-contacts {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.cv-contact-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #00000045;
+    border-radius: 100px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.cv-name {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.cv-role {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.cv-tech-stack {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-flow: column;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.cv-tech-stack > div {
+    text-align: center;
+}
+
+.cv-position {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.cv-work-experience-content > h4 {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.mt-4 {
+    margin-top: 40px;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
